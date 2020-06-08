@@ -1,0 +1,17 @@
+My final project topic is Reversi which is a chess game with both black and white disc on a 8x8 board. The aim of this game is to maximize the 
+
+number of your own color disc on the board. The mechanic of this game is to encircle your opponent discs to turn them into your own color.
+
+This game consist of two parts, one is playing Reversi against another player. The other is beating the AI. Algorithm of optimization in each step has 
+
+been implemented in the script for AI. Two main function has been made in which the function 'reversi' is the backbone of the whole game. This function 
+
+is used to ensure the flow of the game is smooth. At the same time, there are several which is used for (1)checking whether the input is valid
+
+(2)Count the number of discs for each player every single round    (3)Updating the board for processing the game without abnormality.
+
+   On the other hand, the AI program also has several functions to determine which position is the most benefitial. For instance, it has function to 
+
+minimize the choice of places for player's next move. Also, the AI will be guided to take the tactical points if possible while avoiding stepping on
+
+the positions.
